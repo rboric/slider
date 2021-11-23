@@ -1,0 +1,141 @@
+.wrap {
+  width: 940px;
+  height: 730px;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.upper-left {
+  position: inherit;
+  width: 301px;
+  height: 100px;
+  background: #dddddd;
+  border-radius: 0px 0px 5px 5px;
+  display: inline;
+  float: left;
+}
+
+.upper-right {
+  position: relative;
+  width: 621px;
+  height: 100px;
+  left: 320px;
+  top: 0px;
+  background: #dddddd;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.main-element {
+  display: flex;
+  margin-top: 60px;
+}
+
+.middle-left {
+  width: 620px;
+  height: 410px;
+}
+
+.top-slider {
+  position: relative;
+  display: flex;
+  width: 620px;
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+
+.top-slider img {
+  position: relative;
+  height: 200px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.bottom-slider {
+  margin-top: 10px;
+  position: relative;
+  display: inline-flex;
+  width: 460px;
+  float: left;
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+
+.bottom-slider img {
+  position: relative;
+  height: 200px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.buttons {
+  float: left;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.buttons button {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  border-color: #134880;
+}
+
+.left-button {
+  display: block;
+}
+
+.left-button:hover img {
+  content: url("assets-arrows/arrow-blue-left.png");
+}
+
+.right-button {
+  margin-top: 10px;
+}
+
+.right-button:hover img {
+  content: url("assets-arrows/arrow-blue-right.png");
+}
+
+.middle-right {
+  margin-left: 20px;
+  width: 300px;
+}
+
+.upper-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 32px;
+  line-height: 37px;
+  display: flex;
+  letter-spacing: -0.2px;
+  color: #134880;
+  font-weight: 900;
+}
+
+.upper-text p {
+  margin: 0;
+}
+
+.lower-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.2px;
+  color: #484a4c;
+}
+
+.lower-element {
+  margin-top: 60px;
+  width: 941px;
+  height: 100px;
+  background: #dddddd;
+  border-radius: 5px 5px 0px 0px;
+}
